@@ -26,7 +26,7 @@ void Data::init()
             arr[r][c] = 0;
         }
     }
-    fullcount = 0;
+    fullcount = 1;
     score = 0;
     final = 0;
     srand(time(NULL));
