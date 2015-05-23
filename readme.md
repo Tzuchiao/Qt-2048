@@ -1,8 +1,11 @@
 C++2048 Homework Readme Report
 
 A. 執行方式：
+
    下載之後make然後執行
+   
 B. 遊戲方式：
+
    使用Arrow鍵 , 上下左右去滑動
    堆疊的規則如正常版的2048相同
    如 0 2 2 0 往右邊滑會變成 0 0 0 4
@@ -17,6 +20,7 @@ B. 遊戲方式：
    而到達2048之後 , 會出現WIN圖片 , 也可以繼續Restart或是Quit
 
 C. Code部份
+
    分為
    main.cpp
    //Gui 控制
@@ -27,6 +31,7 @@ C. Code部份
    Data.cpp
  
    在MainWindow Class中
+   
    為GUI的控制
    setcolor函式為設定整體GUI的顏色
    readlowestScore和Writelowest函式為讀寫最低分紀錄
@@ -36,6 +41,7 @@ C. Code部份
    on_push_button_clicked函式是quit按鈕的對應事件 , 離開程式
 
    在Data Class中
+   
    為遊戲方式的控制
    init函式為初始化二維陣列的資料 , 並隨機分配一個2在陣列中 , score分數 , final(達到2048與否) , fullcount(棋盤格是否滿了 , 影響到create函式隨機分配的運作)
    create函式 , 隨機分配2在二維陣列當中 , fullcount滿16之後就不會動作了 , 另外fullcount會在create後+1 , 在merge過一個數字後-1
@@ -44,4 +50,5 @@ C. Code部份
    swap函式是交換陣列數字的函式
 
 D. Bonus
+
    Bonus是lowest score的製作 , 結束之後顯示Win的圖片
