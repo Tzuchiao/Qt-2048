@@ -1,5 +1,7 @@
 C++2048 Homework Readme Report
 
+![image](https://github.com/bgrffqq/pd2-2048/blob/master/readP.png)
+
 A. 執行方式：
 
    下載之後make然後執行
