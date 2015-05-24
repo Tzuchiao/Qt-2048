@@ -22,4 +22,4 @@ HEADERS  += mainwindow.h \
 FORMS    += mainwindow.ui
 
 OTHER_FILES += \
-    Just win.jpg
+    Justwin.jpg
