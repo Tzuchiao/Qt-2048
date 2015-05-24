@@ -162,7 +162,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>Just win.jpg</pixmap>
+     <pixmap>Justwin.jpg</pixmap>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
